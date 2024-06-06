@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+    <style>
+        .main-image {
+            width: 450px;
+            /* Adjust as needed */
+            animation: upAndDown 3s infinite;
+        }
+
+        @keyframes upAndDown {
+            0% {
+                transform: translateY(0);
+            }
+
+            50% {
+                transform: translateY(-30px);
+                /* Adjust the value as needed */
+            }
+
+            100% {
+                transform: translateY(0);
+            }
+        }
+    </style>
+</head>
+
+<body style="background-color: black;" style="width: 100;">
+    <div class="main-container">
+        <div class="blur-circle"></div>
+        <div class="blur-circle2"></div>
+        <div class="navbar">
+            <div class="nav-logo">
+                <a href="index.html">AFTER LIFE</a>
+            </div>
+            <img class="mainlogo" src="removed.png">
+            <div class="nav-items">
+                <ul>
+                    <li><a href="index.html"> Home </a></li>
+                    <li><a href="#products-section"> Services </a></li>
+                    <li><a href="aboutUs.html"> About </a></li>
+                    <li><a href="contact.html"> Contact </a></li>
+                    <!-- <li><a href="#"> Collaborate </a></li> -->
+                </ul>
+            </div>
+            <div class="nav-button">
+                <div class="anim-layer"></div>
+                <a href="#">Join US</a>
+            </div>
+            <div id="hamburger-menu">&#9776;</div>
+        </div>
+
+        <!-- mobile menu for navbar -->
+        <div id="mobile-menu">
+            <div class="mobile-nav-items">
+                <ul>
+                    <li><a href="index.html"> Home </a></li>
+                    <li><a href="services.html"> Services </a></li>
+                    <li><a href="aboutUs.html"> About </a></li>
+                    <li><a href="contact.html"> Contact </a></li>
+                    
+                </ul>
+            </div>
+            <div class="mobile-nav-button">
+                <div class="anim-layer"></div>
+                <a href="#">JOIN US</a>
+            </div>
+            <div id="hamburger-cross">&#10006;</div>
+        </div>
+
+        <!-- Start Landing Page -->
+        <div class="landing-page">
+            <div class="content">
+                <div class="container">
+                    <div class="info">
+                        <h1>Empowering Institutions and Businesses with Advanced AI</h1>
+                        <button>JOIN US</button>
+                    </div>
+                    <div class="image" style="max-width:350px;">
+                        <img class="main-image" src="without_bg.png" alt="Moving Image">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End Landing Page -->
+    </div>
+
+    <!-- MISSION-VISION -->
+    <div class="mis_vis_body">
+        <div class="avc">
+            <h2>Mission Vision</h2>
+        </div>
+        <div class="card-wrapper">
+            <div class="card_mis_vis">
+                <div class="card-front">
+                    <img src="mission.JPEG" alt="dune part 1 movie poster">
+                </div>
+                <div class="card-back">
+                    <h3>MISSION</h3>
+                    <br>
+                    <p>To Empower 1Lakh students and transform 1000 startups with our Ai services and products</p>
+                </div>
+            </div>
+            <div class="card_mis_vis">
+                <div class="card-front">
+                    <img src="vis.JPEG" alt="dune part 2 movie poster">
+                </div>
+                <div class="card-back">
+                    <h3>VISION</h3>
+                    <br>
+                    <p>At After Life, we envision a future where businesses and institutions are reborn through the
+                        transformative power of AI. By breathing new life into outdated processes, systems, and
+                        strategies, we catalyse evolution and innovation, enabling our clients to thrive in an
+                        ever-changing landscape</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <div class="avc" id="products-section" style="margin-top:-50px">
+        <h2>Products</h2>
+        <div style="margin-top:-80px">
+            <main class='carousel-body'>
+                <ul class='slider'>
+                    <li class='item'>
+                        <div class='testimonial'>
+                            <h1>Hey Audencia</h1>
+                            <p>This is a personalised bot</p>
+                        </div>
+                        <a href="prod1.html" class="image-link">
+                            <img class='image' src='hey.jpeg' alt="Hey Audencia">
+                        </a>
+                    </li>
+                    <li class='item'>
+                        <div class='testimonial'>
+                            <h1>Scan Me</h1>
+                            <p>Restaurant Storytelling QR</p>
+                        </div>
+                        <a href="prod2.html" class="image-link">
+                            <img class='image' src='prod2.4.png' alt="Scan Me">
+                        </a>
+                    </li>
+                    <li class='item'>
+                        <div class='testimonial'>
+                            <h1>AI SparkTank</h1>
+                            <p>Innovative AI Solutions</p>
+                        </div>
+                        <a href="prod3.html" class="image-link">
+                            <img class='image' src='sparktank.jpeg' alt="AI SparkTank">
+                        </a>
+                    </li>
+                </ul>
+            </main>
+        </div>
+    </div>
+    <!-- <div class="avc" id="products-section" style="margin-top:-50px">
+            <h2>Products</h2>
+            <div style="margin-top:-80px">
+              <main class='carousel-body'>
+                <ul class='slider'>
+                  <li class='item'>
+                    <div class='testimonial'>
+                      <h1>Hey Audencia</h1>
+                      <p>This is a personalised bot</p>
+                    </div>
+                    <a href="#" class="image-link">
+                      <img class='image' src='hey.jpeg'>
+                    </a>
+                  </li>
+                  <li class='item'>
+                    <div class='testimonial'>
+                      <h1>Scan Me</h1>
+                      <p>Restaurant Storytelling QR</p>
+                    </div>
+                    <a href="#" class="image-link">
+                      <img class='image' src='sports.webp'>
+                    </a>
+                  </li>
+                  <li class='item'>
+                    <div class='testimonial'>
+                      <h1>AI SparkTank</h1>
+                      <p>Innovative AI Solutions</p>
+                    </div>
+                    <a href="#" class="image-link">
+                      <img class='image' src='imp.jpg'>
+                    </a>
+                  </li>
+                </ul>
+              </main>
+            </div>
+          </div> -->
+
+
+
+
+
+    <!-- marquee -->
+    <div>
+        <div class="sw-partner-marquee">
+            <div class="sw-partner-marquee-row">
+                <div class="sw-partner-marquee-row-item">
+                    <div class="sw-partner-logo">
+                        <div class="display-expla">
+                            <span>LOOKING FOR <br /> AN INTERNSHIP?</span>
+                            
+                        </div>
+                        <div class="display-video">
+                            <video src="https://cdn.cuberto.com/cb/hello/overview/1.mp4" autoplay="" playsinline=""
+                                loop="" muted="" poster="https://i.postimg.cc/Z5zTypN3/videoframe-2436.png"></video>
+                        </div>
+                    </div>
+                    
+                    <div class="sw-partner-logo">
+                        <div class="display-expla"> 
+                            <span>WE ARE<br /> HIRING🎉</span>
+                        </div>
+                        <div class="display-video">
+                            <video src="https://cdn.cuberto.com/cb/hello/overview/3.webm" autoplay="" playsinline=""
+                                loop="" muted="" poster="https://i.postimg.cc/nhKnKrKW/videoframe-6866.png"></video>
+                        </div>
+                    </div>
+
+                    <div class="sw-partner-logo">
+                        <div class="display-expla">
+                            <span>FEELING CLUELESS<br /> ABOUT AI?🤔 </span>
+                        </div>
+                        <div class="display-video">
+                            <video src="https://cdn.cuberto.com/cb/hello/overview/1.mp4" autoplay="" playsinline=""
+                                loop="" muted="" poster="https://i.postimg.cc/Z5zTypN3/videoframe-2436.png"></video>
+                        </div>
+                    </div>
+                    <!-- Repeat the above block for each additional logo/video pair -->
+                    <!-- ... -->
+                </div>
+                <div class="sw-partner-marquee-row-item">
+                    <!-- Repeat the same items to create a seamless loop effect -->
+                    <div class="sw-partner-logo">
+                        <div class="display-expla">
+                            <span> JOIN <br /> US</span>
+                        </div>
+                        <div class="display-video">
+                            <video src="https://cdn.cuberto.com/cb/hello/overview/3.webm" autoplay="" playsinline=""
+                                loop="" muted="" poster="https://i.postimg.cc/nhKnKrKW/videoframe-6866.png"></video>
+                        </div>
+                    </div>
+                    <div class="sw-partner-logo">
+                        <div class="display-expla">
+                            <span>DISCOVER <br /> TOGETHER</span>
+                        </div>
+                        <div class="display-video">
+                            <video src="https://cdn.cuberto.com/cb/hello/overview/3.webm" autoplay="" playsinline=""
+                                loop="" muted="" poster="https://i.postimg.cc/nhKnKrKW/videoframe-6866.png"></video>
+                        </div>
+                    </div>
+                    
+                    <!-- Repeat the above block for each additional logo/video pair -->
+                    <!-- ... -->
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- FAQs -->
+    <div class="faq_body">
+        <h1>FAQs</h1>
+        <div class="wrapper">
+            <div class="faq_container">
+                <div class="question">What AI services do you offer?</div>
+                <div class="answercont">
+                    <div class="answer">
+                        We offer a comprehensive suite of AI services designed to enhance various aspects of your
+                        business operations. Our offerings include AI-powered chatbots that provide instant and
+                        efficient customer service, natural language processing (NLP) to understand and respond to human
+                        language, machine learning models for predictive analytics and data-driven decision making, and
+                        custom AI solutions tailored specifically to your business needs. Whether you need automation,
+                        data analysis, or advanced AI applications, our expert team can develop a solution that fits
+                        your requirements.
+                    </div>
+                </div>
+            </div>
+            <div class="faq_container">
+                <div class="question">How can AI-powered chatbots benefit my business?</div>
+                <div class="answercont">
+                    <div class="answer">
+                        AI-powered chatbots can significantly improve your customer service experience by providing
+                        immediate, 24/7 assistance to your customers. They handle repetitive inquiries, freeing up your
+                        human agents to focus on more complex tasks. Chatbots can be integrated into multiple platforms
+                        including websites, social media, and messaging apps, ensuring your customers receive consistent
+                        support across all channels. They also help in gathering valuable customer data and feedback,
+                        which can be used to improve your services and products. Overall, chatbots enhance operational
+                        efficiency, reduce response times, and contribute to higher customer satisfaction and loyalty.
+                    </div>
+                </div>
+            </div>
+            <div class="faq_container">
+                <div class="question">What can AI mentor do for our school?</div>
+                <div class="answercont">
+                    <div class="answer">
+                        AI mentors provide 24/7 support for student queries, automate administrative tasks, offer
+                        personalized learning
+                        experiences, and enhance communication between students, teachers, and parents.
+                    </div>
+                </div>
+            </div>
+            <div class="faq_container">
+                <div class="question">How do chatbots help with administrative tasks in our university?</div>
+                <div class="answercont">
+                    <div class="answer">
+                        Chatbots automate routine tasks such as attendance tracking, schedule management, and
+                        announcements, freeing up staff
+                        time for more important activities.
+                    </div>
+                </div>
+            </div>
+            <div class="faq_container">
+                <div class="question">How can it benefit our brand image?</div>
+                <div class="answercont">
+                    <div class="answer">
+                        Implementing AI-powered solutions in schools and colleges significantly enhances their brand
+                        image, positioning them as
+                        pioneers in educational innovation. By being early adopters of AI mentors, institutions
+                        demonstrate a forward-thinking
+                        approach, showcasing their commitment to utilizing cutting-edge technology to improve the
+                        learning experience. This not
+                        only attracts tech-savvy students and parents seeking modern education but also boosts the
+                        institution's reputation for
+                        providing personalized, efficient, and accessible support.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            document.querySelectorAll('a[href="#products-section"]').forEach(anchor => {
+                anchor.addEventListener("click", function (e) {
+                    e.preventDefault();
+                    document.querySelector(this.getAttribute("href")).scrollIntoView({
+                        behavior: "smooth"
+                    });
+                });
+            });
+        });
+    </script>
+
+    <script src="https://storage.ko-fi.com/cdn/scripts/overlay-widget.js"></script>
+    <script src="index.js"></script>
+    <script src="faq.js"></script>
+    <script src="navbar.js"></script>
+</body>
+
+</html>
